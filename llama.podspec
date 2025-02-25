@@ -14,9 +14,9 @@ Pod::Spec.new do |s|
     s.source       = { :http => 'https://yourlibrary.example.com/llama/1.0.0/llama.zip' }
   
     # Supported platforms
-    s.platform     = :ios, '17.0'
-    s.ios.deployment_target = '17.0'
-    s.osx.deployment_target = '14.0'
+    s.platform     = :ios, '16.0'
+    s.ios.deployment_target = '16.0'
+    s.osx.deployment_target = '13.0'
     
     # Include the vendored XCFramework
     s.vendored_frameworks = 'llama.xcframework'
